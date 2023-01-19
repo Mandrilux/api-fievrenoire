@@ -3,7 +3,7 @@ const dotenv = require('dotenv')
 dotenv.config()
 const express = require ("express")
 const bodyParser = require("body-parser")
-//const sequelize = require('./src/db/sequelize')
+const sequelize = require('./src/db/sequelize')
 
 const app = express()
 
@@ -19,7 +19,7 @@ app.use(function (req, res, next) {
     next()
 })
 
-//sequelize.initDb()
+sequelize.initDb()
 
 
 app.get("/", (req, res) => {
