@@ -1,0 +1,31 @@
+{
+  "name": "api-fievrenoire",
+  "version": "1.0.0",
+  "description": "api fievre noire",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mandrilux/api-fievrenoire.git"
+  },
+  "keywords": [
+    "bdsm",
+    "fievre"
+  ],
+  "author": "fievre noire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mandrilux/api-fievrenoire/issues"
+  },
+  "homepage": "https://github.com/Mandrilux/api-fievrenoire#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
